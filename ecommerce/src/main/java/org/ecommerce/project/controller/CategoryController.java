@@ -1,4 +1,5 @@
 package org.ecommerce.project.controller;
+import jakarta.validation.Valid;
 import org.ecommerce.project.model.Category;
 import org.ecommerce.project.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ public class CategoryController {
     }
 
     @PostMapping("/public/categories")
-    public ResponseEntity<String> createCategory(@RequestBody Category category) {
+    public ResponseEntity<String> createCategory(@Valid @RequestBody Category category) {
         categoryService.createCategory(category);
         return new ResponseEntity<>("Category created", HttpStatus.CREATED);
     }
