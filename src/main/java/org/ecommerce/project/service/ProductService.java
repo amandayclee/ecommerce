@@ -1,7 +1,8 @@
 package org.ecommerce.project.service;
 
-import org.springframework.stereotype.Service;
+import org.ecommerce.project.model.Product;
+import org.ecommerce.project.payload.ProductDTO;
 
-@Service
 public interface ProductService {
+    ProductDTO addProduct(Long categoryId, Product product);
 }

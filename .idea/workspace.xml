@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="053868eb-24b8-495b-88e1-ae3758eeaec3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/payload/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/payload/ProductResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +87,22 @@
       <updated>1724652350038</updated>
       <workItem from="1724652351218" duration="19000" />
       <workItem from="1724652373886" duration="1000" />
-      <workItem from="1724705484390" duration="3000000" />
+      <workItem from="1724705484390" duration="5329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/ecommerce/project/config/AppConfig.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
