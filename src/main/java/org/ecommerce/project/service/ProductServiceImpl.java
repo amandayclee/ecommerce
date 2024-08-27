@@ -3,6 +3,7 @@ package org.ecommerce.project.service;
 import org.ecommerce.project.exceptions.ResourceNotFoundException;
 import org.ecommerce.project.model.Category;
 import org.ecommerce.project.model.Product;
+import org.ecommerce.project.payload.CategoryDTO;
 import org.ecommerce.project.payload.ProductDTO;
 import org.ecommerce.project.payload.ProductResponse;
 import org.ecommerce.project.repository.CategoryRepository;
@@ -89,5 +90,13 @@ public class ProductServiceImpl implements ProductService {
         Product savedProduct = productRepository.save(productFromDb);
 
         return modelMapper.map(savedProduct, ProductDTO.class);
+    }
+
+    @Override
+    public ProductDTO deleteProduct(Long productId) {
+        Product product = productRepository.findById(productId)
+                .orElseThrow(() -> new ResourceNotFoundException("Product", "productId", productId));
+        productRepository.delete(product);
+        return modelMapper.map(product, ProductDTO.class);
     }
 }

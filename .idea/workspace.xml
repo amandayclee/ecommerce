@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053868eb-24b8-495b-88e1-ae3758eeaec3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="053868eb-24b8-495b-88e1-ae3758eeaec3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +82,7 @@
       <updated>1724652350038</updated>
       <workItem from="1724652351218" duration="19000" />
       <workItem from="1724652373886" duration="1000" />
-      <workItem from="1724705484390" duration="8277000" />
+      <workItem from="1724705484390" duration="8701000" />
     </task>
     <servers />
   </component>
