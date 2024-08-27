@@ -5,32 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="053868eb-24b8-495b-88e1-ae3758eeaec3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ecommerce/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/EcommerceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/config/AppConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/controller/CategoryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/exceptions/APIException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/exceptions/MyGlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/model/Category.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/payload/APIResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/payload/CategoryDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/payload/CategoryResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/repository/CategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/service/CategoryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/java/org/ecommerce/project/service/CategoryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/src/test/java/org/ecommerce/project/EcommerceApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/payload/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/payload/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ecommerce/project/service/CategoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,20 +37,42 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2lBTDGTPtAYWL7BxdIyUX9OzImf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/amanda/Workspace/2024Q3_Java/ecommerce&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.EcommerceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/amanda/Workspace/2024Q3_Java/ecommerce",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EcommerceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ecommerce.project.EcommerceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +91,7 @@
       <updated>1724652350038</updated>
       <workItem from="1724652351218" duration="19000" />
       <workItem from="1724652373886" duration="1000" />
+      <workItem from="1724705484390" duration="3000000" />
     </task>
     <servers />
   </component>
