@@ -3,7 +3,6 @@ package org.ecommerce.project.service;
 import org.ecommerce.project.exceptions.ResourceNotFoundException;
 import org.ecommerce.project.model.Category;
 import org.ecommerce.project.model.Product;
-import org.ecommerce.project.payload.CategoryDTO;
 import org.ecommerce.project.payload.ProductDTO;
 import org.ecommerce.project.payload.ProductResponse;
 import org.ecommerce.project.repository.CategoryRepository;
@@ -26,9 +25,10 @@ public class ProductServiceImpl implements ProductService {
     private ModelMapper modelMapper;
 
     @Override
-    public ProductDTO addProduct(Long categoryId, Product product) {
+    public ProductDTO addProduct(Long categoryId, ProductDTO productDTO) {
         Category category = categoryRepository.findById(categoryId)
                 .orElseThrow(() -> new ResourceNotFoundException("Category", "categoryID", categoryId));
+        Product product = modelMapper.map(productDTO, Product.class);
         product.setImage("default.png");
         product.setCategory(category);
         double specialPrice = product.getPrice() -
@@ -76,10 +76,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ProductDTO updateProduct(Product product, Long productId) {
+    public ProductDTO updateProduct(ProductDTO productDTO, Long productId) {
         Product productFromDb = productRepository.findById(productId)
                 .orElseThrow(() -> new ResourceNotFoundException("Product", "productId", productId));
-
+        Product product = modelMapper.map(productDTO, Product.class);
         productFromDb.setProductName(product.getProductName());
         productFromDb.setDescription(product.getDescription());
         productFromDb.setQuantity(product.getQuantity());
