@@ -26,7 +26,7 @@ This project is a backend-only eCommerce application built using Spring Boot. It
 - **Order**: Users can place orders and track their order status
 
 ## ERD Diagram
-<img src="./assets/img/erd.png" height="800px">
+<img src="./assets/img/erd.png" height="800px">mass loop^
 
 ## Key Features
 - **User Authentication**: Secure user authentication using JWT
